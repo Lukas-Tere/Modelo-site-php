@@ -1,0 +1,7 @@
+head
+<link rel="stylesheet" type="text/css" media="screen" href="script/css/bootstrap.css" />
+
+abaixo do body ou footer
+<script type="text/javascript" src="script/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="script/js/popper.js"></script>
+<script type="text/javascript" src="script/js/bootstrap.js"></script>

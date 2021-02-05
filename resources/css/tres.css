@@ -1,0 +1,235 @@
+div {
+    position: relative;
+}
+.block-center {
+	display:block;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+nav a{
+    
+	display:inline-block !important;
+	color:#0dc469 !important;
+	font-size:16px !important;
+    padding:5px 20px !important;
+	border-radius:10px !important;
+	transition:all .3s ease-in-out !important;
+}
+nav a:hover{
+	text-decoration:none;
+	background-color:#0dc469;
+	box-shadow:inset 0px -40px 30px -30px #00386a;
+    color:#0dc469;
+}
+nav button:hover{
+	text-decoration:none;
+	background-color:#0dc469;
+	box-shadow:inset 0px -40px 30px -30px #00386a;
+    color:#0dc469;
+}
+#nav{
+	background-color: #1d1d1d;
+}
+.nav-item{
+	margin-left: 50px !important;
+}
+h1,h2,h3 {
+	font-family: 'roboto';
+}
+h4,h5,h6 {
+	font-family: 'Comfortaa';
+}
+
+
+.btn-sucess{
+    color: #0dc469 !important;
+}
+
+footer{
+	background-color: #3d3d3d !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+	width: 100% !important;
+	bottom: 0 !important;
+	color: #0dc469 !important;
+
+}
+#selogp{
+	color: #0dc469;
+}
+
+/*.container{ width: 100%;
+ 			height: 100%;
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		   align-items: center;
+		   margin-top: 10px;
+		   
+	
+} */
+
+
+
+.img-border {
+    border: 8px solid rgb(97, 241, 162);
+}
+.img-circle {
+    border-radius: 20%;
+}
+teste {
+    vertical-align: middle;
+}
+
+header {
+	display: block;
+}
+
+.direitos-reservados {
+padding: 5px;
+margin-top: 1000px;
+}
+
+
+
+.nossocontato {
+	margin-top: 30px;
+	color: #0dc469;
+}
+
+.redesocial {
+	margin-top: 30px;
+	color: #fff;
+
+}
+
+/* TESTE DAQUI A BAIXO  */
+.card-curso, .card-case, .card-evento, .card-noticia-big, .card-livro {
+    background: #ffffff;
+    border: 1px solid #efefef;
+    padding-bottom: 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.03);
+}
+.card {
+    width: 255px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 14px 36px 14px;
+}
+.color-1-1 {
+    color: #666666;
+}
+
+.card-image {
+    height: 171px;
+    overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, dialog {
+    display: block;
+}
+/*html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, select, optgroup, textarea, button, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, header, hgroup, menu, nav, output, ruby, section, summary, time, video, main {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+}
+user agent stylesheet
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+	margin-inline-end: 40px;
+	
+}
+
+a {
+    background: transparent;
+    color: inherit;
+    text-decoration: inherit;
+	outline: none;
+}
+
+
+#primary img {
+    height: auto;
+}
+.card-curso img, .card-livro img {
+    display: block;
+}
+.card-image img {
+    min-width: 100%;
+}
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+.card-curso .card-info, .card-case .card-info, .card-livro .card-info {
+    padding: 22px 8px 0 30px;
+    text-align: left;
+    min-height: 132px;
+}
+
+.card-curso .card-tt, .card-case .card-tt {
+    min-height: 42px;
+    line-height: 1;
+}
+.fw-bold {
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6, th {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+#site-branding .phone strong, #breadcrumbs, .page-cursos-presenciais .bt-tpl-1, .page-financiamento-estudantil .bt-more, .page-programa-senac-de-gratuidade .lista-links, .page-escola-parceira .lista-links, #gal-curso .flag, .turma-item p, .curso-info-item .text, .download-programa p, .card .bt, .widget-bt, #filtro-turma label, .widget-common-text, .filtro-curso > ul, .widget-areas .item-thumb, .card-unidade .info-unidade.ico-phone, .widget-busca-unidade .bt, .cat-item, .widget-mais-lidas p, #copyright, .card-evento .dt-start, .item-busca p, .widget-docentes .card, .list-wchevron, .bbox-content-list li, .bbox-content-list li .bt, .site-info-dados .final-text, #menu-contexto li li, .card-livro, .card-case .case-detalhes p, .widget-special .widget-def-tt-sub, .info-unidade > strong a, #menu-footer {
+    font-size: 14px;
+}
+.list-none, .list-none * {
+    list-style: none;
+    margin: 0;
+}
+.fw-regular {
+    font-weight: 400;
+}
+
+#site-branding .phone strong, #breadcrumbs, .page-cursos-presenciais .bt-tpl-1, .page-financiamento-estudantil .bt-more, .page-programa-senac-de-gratuidade .lista-links, .page-escola-parceira .lista-links, #gal-curso .flag, .turma-item p, .curso-info-item .text, .download-programa p, .card .bt, .widget-bt, #filtro-turma label, .widget-common-text, .filtro-curso > ul, .widget-areas .item-thumb, .card-unidade .info-unidade.ico-phone, .widget-busca-unidade .bt, .cat-item, .widget-mais-lidas p, #copyright, .card-evento .dt-start, .item-busca p, .widget-docentes .card, .list-wchevron, .bbox-content-list li, .bbox-content-list li .bt, .site-info-dados .final-text, #menu-contexto li li, .card-livro, .card-case .case-detalhes p, .widget-special .widget-def-tt-sub, .info-unidade > strong a, #menu-footer {
+    font-size: 14px;
+}
+.card-curso .bt, .card-case .bt, .card-livro .bt {
+    margin: 0 30px;
+}
+.card .bt {
+    display: block;
+    padding: 0;
+}
+.bt.bg-1-1 {
+    border-top: 3px solid #2e2e2e;
+}
+.bt, .accordeon-tt, #nav-site-map #menu-footer > li > a, #menu-contexto-2, .curso-unidades strong, .curso-menu-extra, .widget-common-tt, .depoimento .author, .card-evento .card-tt, .widget-filter, .widget-filter-options, .card-imprensa, .pre-texto, .widget-mais-lidas .tt, .bbox-content-list li > .tt, .card-noticia-min .card-tt, .fancybox-close-small:after, .widget-dicas, .card-vagas .card-tt, .search-results .abas, .list-editais, .card-livro .card-tt, .curso-fc-intro.no-video .curso-text-resumo a, .curso-fc-intro.no-video .list-wchevron, .fcldd-nav, #searchform input {
+    font-size: 18px;
+}
+.bt {
+    display: inline-block;
+    height: 46px;
+    line-height: 43px;
+    text-align: center;
+    padding: 0 26px;
+    min-width: 197px;
+}
+.bg-1-1 {
+    background: #2e2e2e;
+}
+.color-fff {
+    color: #ffffff;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.fw-bold {
+    font-weight: 700;
+}
